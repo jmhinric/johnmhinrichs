@@ -1,0 +1,228 @@
+@import url(http://fonts.googleapis.com/css?family=Neuton:300);
+
+body {
+  font-family: 'Neuton', serif;
+}
+
+h2 {
+  font-family: helvetica, sans-serif;
+}
+
+h3 {
+  font-family: helvetica, sans-serif;
+}
+
+.contain {
+  position: relative;
+}
+
+.jh-picture {
+  width: 100%;
+  background-image: url("../images/jh-cropped.jpg");
+  background-size: cover;
+  background-position: top;
+  height: 640px;
+  position: relative;
+}
+
+.self {
+  height: 140px;
+  width: 100%;
+  background: rgba(83, 96, 126, 0.95);
+  position: absolute;
+  bottom: 0px;
+}
+
+.self-text {
+  margin-top: -23px;
+}
+
+.self h2 {
+  color: white;
+  text-align: center;
+}
+
+.jh-name {
+  padding-top: 20px;
+  font-size: 2em;
+  /*font-family: helvetica, sans-serif;*/
+}
+
+.self-titles {
+  /*font-family: helvetica, sans-serif; */
+}
+
+.about {
+  color: rgb(129, 124, 142);
+  font-size: 1.5em;
+  padding: 50px 300px;
+}
+
+.projects {
+  background: rgb(184, 195, 204);
+  padding-bottom: 150px;
+}
+
+.projects-title {
+  background: rgb(129, 124, 142);
+  height: 140px;
+}
+
+.projects-title h2 {
+  text-align: center;
+  color: white;
+  font-size: 2em;
+  padding-top: 52px;
+}
+
+.single-project {
+  width: 950px;
+  margin: 80px auto;
+  border: 5px solid black;
+  border-radius: 15px;
+  background: white;
+}
+
+.single-title {
+  background: rgb(83, 96, 126);
+}
+
+.single-description {
+  padding: 10px 30px;
+  font-size: 1.5em;
+}
+
+.single-project h3 {
+  font-size: 1.7em;
+  text-align: center;
+  padding: 25px 0;
+  color: white;
+  margin-top: 0;
+}
+
+.single-img {
+  width: 600px;
+  border: 1px solid black;
+  border-radius: 4px;
+  display: inline-block;
+  margin-left: 30px;
+}
+
+.single-image {
+  padding-right: 50px;
+  display: inline-block;
+  /*position: relative;*/
+}
+
+.single-about {
+  display: inline-block;
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.single-text {
+  width: 200px;
+  bottom: 65px;
+}
+
+
+
+.github {
+  background: black;
+  border-radius: 5px;
+  padding: 7px;
+  width: 112px;
+  /*margin-bottom: 20px;*/
+}
+.github a {
+  color: white;
+  text-decoration: none;
+  margin: 5px;
+  padding: 10px 0;
+  font-size: 0.9em;
+  font-family: helvetica, sans-serif;
+  text-align: center;
+}
+
+/*****************************************************/
+/*CONTACT*/
+
+.contact-title {
+  background: rgb(129, 124, 142);
+  height: 140px;
+}
+
+.contact-title h2 {
+  text-align: center;
+  color: white;
+  font-size: 2em;
+  padding-top: 52px;
+  margin-top: 0;
+}
+
+.contact-links {
+  padding: 100px;
+}
+
+.contact h3 {
+  /*padding-top: 100px;*/
+  text-align: center;
+}
+
+.icons {
+  padding-top: 50px;
+  width: 160px;
+  margin: 0 auto;
+}
+
+.contact-icon {
+  display: inline-block;
+}
+
+.contact-email a {
+  text-decoration: none;
+  color: black;
+  font-family: 'Neuton', serif;
+  font-size: 1.7em;
+}
+
+
+footer {
+  bottom: 0px;
+}
+
+footer h5 {
+  text-align: center;
+}
+
+/***************************************************/
+/*MEDIA QUERIES*/
+
+
+@media (max-width: 850px) {
+  .about {
+    padding: 25px 150px;
+  }
+
+  .single-project {
+    width: 630px;
+  }
+
+  .single-img {
+    width: 400px;
+  }
+}
+
+@media (max-width: 500px) {
+  .about {
+    padding: 15px 75px;
+  }
+
+  .single-project {
+    width: 315px;
+  }
+
+  .single-img {
+    width: 200px;
+  }
+}
