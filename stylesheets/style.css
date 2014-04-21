@@ -81,6 +81,7 @@ h3 {
   border: 5px solid black;
   border-radius: 15px;
   background: white;
+  /*position: relative;*/
 }
 
 .single-title {
@@ -100,40 +101,35 @@ h3 {
   margin-top: 0;
 }
 
+.single-about {
+  /*display: inline-block;*/
+  /*position: relative;*/
+  /*margin-bottom: 30px;*/
+}
+
 .single-img {
   width: 600px;
-  border: 1px solid black;
+  border: 3px solid black;
   border-radius: 4px;
-  display: inline-block;
-  margin-left: 30px;
-}
-
-.single-image {
-  padding-right: 50px;
-  display: inline-block;
-  /*position: relative;*/
-}
-
-.single-about {
-  display: inline-block;
-  position: relative;
-  margin-bottom: 30px;
+  margin: 0 auto;
+  margin-top: 20px;
 }
 
 .single-text {
   width: 200px;
   bottom: 65px;
+  margin: 0 auto;
 }
-
-
 
 .github {
   background: black;
   border-radius: 5px;
   padding: 7px;
   width: 112px;
-  /*margin-bottom: 20px;*/
+  margin: 40px auto;
+  /*margin-top: 20px;*/
 }
+
 .github a {
   color: white;
   text-decoration: none;
@@ -171,12 +167,13 @@ h3 {
 
 .icons {
   padding-top: 50px;
-  width: 160px;
+  width: 180px;
   margin: 0 auto;
 }
 
 .contact-icon {
   display: inline-block;
+  padding: 0 5px;
 }
 
 .contact-email a {
