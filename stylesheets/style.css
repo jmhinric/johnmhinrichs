@@ -12,6 +12,12 @@ h3 {
   font-family: helvetica, sans-serif;
 }
 
+.highlight {
+  font-weight: bold;
+  /*color: rgb(83, 96, 126);*/
+  color: red;
+}
+
 .contain {
   position: relative;
 }
@@ -60,7 +66,7 @@ h3 {
 
 .projects {
   background: rgb(184, 195, 204);
-  padding-bottom: 150px;
+  padding-bottom: 1px;
 }
 
 .projects-title {
@@ -81,7 +87,6 @@ h3 {
   border: 5px solid black;
   border-radius: 15px;
   background: white;
-  /*position: relative;*/
 }
 
 .single-title {
@@ -101,18 +106,18 @@ h3 {
   margin-top: 0;
 }
 
-.single-about {
-  /*display: inline-block;*/
-  /*position: relative;*/
-  /*margin-bottom: 30px;*/
-}
-
-.single-img {
+.single-image {
   width: 600px;
+  height: 292px;
   border: 3px solid black;
   border-radius: 4px;
   margin: 0 auto;
   margin-top: 20px;
+}
+
+.single-img {
+  width: 600px;
+  height: 292px;
 }
 
 .single-text {
@@ -127,7 +132,6 @@ h3 {
   padding: 7px;
   width: 112px;
   margin: 40px auto;
-  /*margin-top: 20px;*/
 }
 
 .github a {
@@ -161,7 +165,6 @@ h3 {
 }
 
 .contact h3 {
-  /*padding-top: 100px;*/
   text-align: center;
 }
 
@@ -205,8 +208,14 @@ footer h5 {
     width: 630px;
   }
 
+  .single-image {
+    width: 400px;
+    height: 195px;
+  }
+
   .single-img {
     width: 400px;
+    height: 195px;
   }
 }
 
@@ -218,8 +227,14 @@ footer h5 {
   .single-project {
     width: 315px;
   }
-
+  
+  .single-image {
+    width: 200px;
+    height: 97px;
+  }
+  
   .single-img {
     width: 200px;
+    height: 97px;
   }
 }

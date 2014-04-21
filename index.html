@@ -32,11 +32,11 @@
     <main class="content">
       <section class="about">
         <p>
-          Hi! I'm a full-stack web developer specializing in Ruby on Rails and JavaScript. I just completed General Assembly's 12-week Web Development Immersive program. I'm now hungry for the opportunity to work for a passionate, team-oriented tech company in New York as a junior developer.<br><br>
+          Hi! I'm a <span class="highlight">full-stack web developer</span> specializing in Ruby on Rails and JavaScript. I just completed General Assembly's 12-week Web Development Immersive program. I'm now hungry for the opportunity to work for a passionate, team-oriented tech company in New York as a junior developer.<br><br>
 
-          I graduated from the University of Illinois at Urbana-Champaign in Mathematics in 2006 but spent the last eight years working as a professional modern dancer in New York City, two years of which were with the historic Merce Cunningham Dance Company. Making a website that documented and shared knowledge about the craft of dance was what helped me discover my intense interest in web development and prompted me to make a career transition.<br><br>
+          I graduated from the University of Illinois at Urbana-Champaign in <span class="highlight">Mathematics</span> in 2006 but spent the last eight years working as a professional modern dancer in New York City, two years of which were with the historic <span class="highlight">Merce Cunningham Dance Company</span>. Making a website that documented and shared knowledge about the craft of dance was what helped me discover my intense interest in web development and prompted me to make a career transition.<br><br>
           
-          I'm especially excited by math-based code challenges and love doing Project Euler problems. Check out some of my <a href="https://github.com/jmhinric/project_euler">solutions</a> if you feel inclined.  Besides honing my coding and problem-solving skills, I'm enjoying deepening my knowledge of Rails and Javascript and also exploring Backbone.js. 
+          I'm especially excited by math-based code challenges and love doing <span class="highlight">Project Euler</span> problems. Check out some of my <a href="https://github.com/jmhinric/project_euler">solutions</a> if you feel inclined.  Besides honing my coding and problem-solving skills, I'm enjoying deepening my knowledge of Rails and Javascript and also exploring Backbone.js. 
         </p>
       </section>
 
@@ -44,6 +44,7 @@
         <div class="projects-title">
           <h2>Projects</h2>
         </div>
+
 <!-- Conway -->
         <div class="single-project">
           
@@ -52,13 +53,13 @@
           </div>
 
           <div class="single-description">
-            <p>This is my favorite project that I've worked on so far.  It's a simulation of John Conway's math-based, cellular automaton that allows the user to create game states, move the game forward or back in time, change grid sizes, change speeds, and load past game states.  The most fun part of the project was tackling the feature of detecting oscillations and still-life objects in the game.  The project was done in JavaScript and driven with Jasmine tests.
+            <p>This is my favorite project that I've worked on so far.  It's a simulation of John Conway's math-based, cellular automaton that allows the user to create game states, move the game forward or back in time, change grid sizes, change speeds, and load past game states.  The most fun part of the project was tackling the feature of detecting oscillations and still-life objects in the game.  The project was done in <span class="highlight">JavaScript</span> and BDD-driven with <span class="highlight">Jasmine</span>.
             </p>
           </div>
 
           <div class="single-about">
-            <div class="single-img">
-              <a href="http://conways-life.herokuapp.com/"><img src="images/conway.jpg" width=600px></a>
+            <div class="single-image">
+              <a href="http://conways-life.herokuapp.com/"><img class="single-img" src="images/conway.jpg" width=600px height=292px></a>
             </div>
                       
             <div class="github">
@@ -69,6 +70,34 @@
           </div>
         </div>
 <!-- ********************************************* -->
+<!-- MOVIE CHECKER -->
+
+        <div class="single-project">
+          
+          <div class="single-title">
+            <h3>Movie Checker</h3>
+          </div>
+
+          <div class="single-description">
+            <p>I made this app while at General Assembly to learn <span class="highlight">Backbone.js</span>.  It lets a user keep a list of movies they've seen and movies they'd like to see.  As a basic checklist, Movie Checker includes CRUD actions as well as an API call to OMDB to get the movie poster.
+            </p>
+          </div>
+
+          <div class="single-about">
+            <div class="single-image">
+              <a href="http://moviechecker.herokuapp.com/"><img class="single-img" src="images/moviechecker.jpg" width=600px></a>
+            </div>
+                      
+            <div class="github">
+              <a href="https://github.com/jmhinric/moviechecker">
+                Code on Github
+              </a>
+            </div>
+          </div>
+        </div>
+
+
+<!-- ********************************************* -->
 <!-- DANCESHARE -->
         <div class="single-project">
           
@@ -78,13 +107,15 @@
 
           <div class="single-description">
             <p>
-              DanceShare was the first project I did in General Assembly's WDI and my first project in Rails.  It allows audience members to write reviews of modern dance concerts. Users can create dance companies, which have runs of performances, and other users then write reviews.  I still care deeply about the field of modern dance and thus about this project.  The most interesting thing to me about it is that it would aggregate audience feedback across cultures and across time. I wish this had existed seventy-five years ago and had been widely used, because it would contain incredible data about the history of dance, art, and culture.
+              DanceShare was the first project I did in General Assembly's WDI and my first experience in <span class="highlight">Ruby on Rails</span>.  It allows audience members to write reviews of modern dance concerts and uses Yelp's API to get venue information. Users can create dance companies, which have runs of performances, and other users then write reviews.  It includes tests with <span class="highlight">RSpec</span> and <span class="highlight">Capybara</span>.<br/><br/>
+
+              I still care deeply about the field of modern dance and thus about this project.  The most interesting thing to me about DanceShare is that it could aggregate audience feedback across cultures and across time. I wish this had existed seventy-five years ago and had been widely used, because it would contain incredible data about the history of dance, art, and culture.
             </p>
           </div>
 
           <div class="single-about">
-            <div class="single-img">
-              <a href="http://danceshare.herokuapp.com/"><img src="images/danceshare.jpg" width=600px></a>
+            <div class="single-image">
+              <a href="http://danceshare.herokuapp.com/"><img class="single-img" src="images/danceshare.jpg" width=600px></a>
             </div>
                       
             <div class="github">
